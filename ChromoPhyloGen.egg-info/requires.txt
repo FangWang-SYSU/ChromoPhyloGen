@@ -1,0 +1,11 @@
+biopython
+Cython
+numpy
+pandas
+scikit-learn
+scipy
+tqdm
+snfpy
+matplotlib
+seaborn
+statsmodels

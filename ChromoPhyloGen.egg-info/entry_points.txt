@@ -1,0 +1,2 @@
+[console_scripts]
+ChromoPhyloGen = ChromoPhyloGen.cli_main:main
