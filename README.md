@@ -248,7 +248,7 @@ second column: error_risk score.
 
 Developer
 =========
-Fang Wang (fwang9@mdanderson.org), Xin Wang (wangx768@mail2.sysu.edu.cn)
+Xin Wang (wangx768@mail2.sysu.edu.cn)
 
 Draft date
 ==========
