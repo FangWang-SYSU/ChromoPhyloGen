@@ -3,6 +3,8 @@ Description
 
 This framework infers the phylogeny of tumor cells characterized by complex chromosome rearrangements, distinguishes between chromothripsis and seismic rearrangements and assesses their association with the risk of errors during tumor cell division, enabling the establishment of clonal lineages. 
 
+![avatar](github.png)
+
 System requirements and dependency
 ==================================
 Software package development environment： 
@@ -239,6 +241,9 @@ second column: error_risk score.
     Optional parameter '-d' or 'plot_png'. 
     If set to 1, it will draw the phylogenetic tree and heatmap of CNA profile. 
     If set to 0, it will not be drawn.
+
+![avatar](example_tree.png)
+
 >Note that drawing requires `matplotlib` and `seaborn` packages
 
 Developer
