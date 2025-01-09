@@ -136,25 +136,6 @@ ChromoPhyloGen \
     -n 4
 ```
 
-## Run in python
-```python
-# Load the package
-import ChromoPhyloGen
-from ChromoPhyloGen import ChromoPhyloGen as cp
-
-# Run ChromoPhyloGen
-cp.chromosome_event(
-    node_data=ChromoPhyloGen.__path__[0] + '/data/exampleCNA.txt',
-    newick='none',  # Alternatively: ChromoPhyloGen.__path__[0] + '/data/example_tree.newick'
-    output_dir='ChromoPhyloGen_out',
-    prefix='example_',
-    cancer_type='ALL',
-    cores=4,
-    randome_num=1,
-    verbose=True
-)
-```
-
 
 # Output Files
 
