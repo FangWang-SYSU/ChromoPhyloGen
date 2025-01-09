@@ -1,0 +1,7 @@
+biopython
+Cython
+numpy
+pandas
+scipy
+tqdm
+statsmodels

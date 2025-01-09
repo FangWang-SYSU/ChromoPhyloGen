@@ -1,0 +1,2 @@
+include ChromoPhyloGen/data/*.txt
+include ChromoPhyloGen/*.pyx
