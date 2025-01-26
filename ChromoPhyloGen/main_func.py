@@ -86,8 +86,5 @@ def chromosome_event(node_data,
 
     if verbose:
         print(f'The resulting file is saved in the {os.path.join(output_dir, prefix)}*:')
-        print(f'\t 1.cell_info.txt: Cell variation information in trace')
-        print(f'\t 2.all_node_data.txt: Cell CNA profile, including internal node, name by "virtual_"')
-        print(f'\t 3.cell_tree.newick: Single cell trace file，format newick')
-        print(f'\t Other: *Detail in : https://github.com/FangWang-SYSU/ChromoPhyloGen')
+        print(f'\t *Detail in : https://github.com/FangWang-SYSU/ChromoPhyloGen')
         print(f'Finished!')
