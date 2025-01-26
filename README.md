@@ -112,6 +112,9 @@ The input file for **ChromoPhyloGen** must be an integer copy number spectrum wi
 The example dataset, `exampleCNA.txt`, is included in the `ChromoPhyloGen` package and can also be downloaded [here](https://github.com/FangWang-SYSU/ChromoPhyloGen/blob/main/ChromoPhyloGen/data/exampleCNA.txt).
 
 ### Example 1: Without a Tree Newick File
+
+In this example, no input tree in Newick format is provided (-t none). The tool will calculate metrics based on the input CNA data but will not update or output a phylogenetic tree.
+
 ```bash
 mkdir ChromoPhyloGen_out
 ChromoPhyloGen \
@@ -124,6 +127,9 @@ ChromoPhyloGen \
     -n 4
 ```
 ### Example 2: With a Tree Newick File
+
+In this example, an input tree in Newick format is provided (-t ./ChromoPhyloGen/data/example_tree.newick). The tool will calculate additional metrics based on the input tree and CNA data, update the branch lengths of the tree, and output the updated tree as a new Newick file (cell_tree.newick).
+
 ```bash
 mkdir ChromoPhyloGen_out_tree
 ChromoPhyloGen \
